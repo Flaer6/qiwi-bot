@@ -1,8 +1,6 @@
-import dotenv from 'dotenv'
 import { Markup, Telegraf } from 'telegraf'
 import { menu } from './keyboards.js'
 
-dotenv.config()
 const bot = new Telegraf('token')
 const PHONE_NUMBER = '+99373993938'
 const CHANNEL_USERNAME = 'example'
